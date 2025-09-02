@@ -40,6 +40,8 @@ class Program
 
 ## Installation
 
+nuget.org: [FolderScanToTxt](https://www.nuget.org/packages/FolderScanToTxt/)
+
 From NuGet.org
 
 ```bash
