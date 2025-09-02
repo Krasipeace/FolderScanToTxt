@@ -1,5 +1,6 @@
 # FolderScanToTxt
-FolderScanToTxt is a lightweight .NET library for scanning directories, filtering files/folders, and exporting the structure to a text file. It is designed to be UI-agnostic, so you can use it in console apps, desktop apps, or web applications.
+
+[FolderScanToTxt](https://www.nuget.org/packages/FolderScanToTxt/) is a lightweight .NET library for scanning directories, filtering files/folders, and exporting the structure to a text file. It is designed to be UI-agnostic, so you can use it in console apps, desktop apps, or web applications.
 
 ## Quick Start
 
@@ -45,13 +46,7 @@ nuget.org: [FolderScanToTxt](https://www.nuget.org/packages/FolderScanToTxt/)
 From NuGet.org
 
 ```bash
-dotnet add package FolderScanToTxt
-```
-
-Then install:
-
-```bash
-dotnet add package FolderScanToTxt
+dotnet add package FolderScanToTxt --version 1.0.0
 ```
 
 ## Usage
