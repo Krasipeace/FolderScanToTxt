@@ -49,7 +49,7 @@ dotnet add package FolderScanToTxt
 Then install:
 
 ```bash
-dotnet add package FolderScanner --version 1.0.0
+dotnet add package FolderScanToTxt
 ```
 
 ## Usage
@@ -70,6 +70,8 @@ var options = new FolderScanOptions
 
 FolderScannerService.ScanAndSave(@"C:\MyFolder", "folder-contents.txt", options);
 ```
+
+You can also check a console project that uses this library at: [FolderToTxt](https://github.com/Krasipeace/FolderToTxt)
 
 ## Output Example
 
@@ -95,7 +97,7 @@ image.png
 ## API Overview
 
 - FolderScanToTxt
-    - ScanAndSave(string baseDirectory, string outputFileName, FolderScanOptions options, IProgress<(int current, int total)>? progress = null)
+    - ScanAndSave(string baseDirectory, string outputFileName, FolderScanOptions options)
 
 - FolderScanOptions
     - bool IncludeHidden → include hidden files/folders.

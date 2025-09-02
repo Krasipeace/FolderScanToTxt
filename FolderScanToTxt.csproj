@@ -7,8 +7,15 @@
 		<Version>1.0.0</Version>
 		<Authors>Krasipeace</Authors>
 		<Description>Library for scanning directories and files.</Description>
-		<RepositoryUrl>https://github.com/Krasipeace/FolderToTxt</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/Krasipeace/FolderScanToTxt</RepositoryUrl>
 		<Nullable>enable</Nullable>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	</PropertyGroup>
 
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="" />
+		<None Include="LICENSE" Pack="true" PackagePath="" />
+	</ItemGroup>
 </Project>
